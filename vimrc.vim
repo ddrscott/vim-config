@@ -32,6 +32,9 @@ map <Leader>n :NERDTreeToggle<CR>
 map <Leader>k :call Svndiff('prev')<CR>
 map <Leader>j :call Svndiff('next')<CR>
 
+imap <C-Space> <C-P>
+set wildmode=longest,list:longest
+
 set wildignore+=tmp/ios,tmp/android,app/assets/images,public/assets,vendor/assets,bin/classes
 
 let g:svndiff_autoupdate=1
