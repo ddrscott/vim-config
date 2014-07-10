@@ -7,7 +7,10 @@ execute pathogen#infect('bundle/{}')
 
 
 " Styles and Colors
-filetype indent plugin on
+filetype on
+filetype indent on
+filetype plugin on
+
 syntax enable
 set background=dark
 let g:solarized_termcolors=256
@@ -15,6 +18,7 @@ colorscheme solarized
 
 " Intentions
 set autoindent smartindent tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+set nowrap
 
 " Yank to system clipboard
 set clipboard=autoselect
