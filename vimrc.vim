@@ -16,6 +16,9 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+set mouse=a
+set ttymouse=xterm2
+
 " Intentions
 set autoindent smartindent tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 set nowrap
