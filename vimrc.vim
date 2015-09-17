@@ -5,6 +5,8 @@ let mapleader=" "
 runtime macros/matchit.vim
 execute pathogen#infect('bundle/{}')
 
+autocmd FileType ruby set tags=.tags.ruby
+autocmd FileType javascript set tags=.tags.jsx
 
 " Styles and Colors
 filetype on
@@ -19,6 +21,15 @@ colorscheme solarized
 
 set mouse=a
 set ttymouse=xterm2
+
+" allow unsaved buffers to be hidden
+set hidden
+
+set incsearch
+
+" more natural window splits
+set splitbelow
+set splitright
 
 " Intentions
 set autoindent smartindent tabstop=2 shiftwidth=2 softtabstop=2 expandtab
