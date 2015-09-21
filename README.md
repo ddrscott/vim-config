@@ -19,4 +19,8 @@ Setup
     cd /path/to/project
     ctags -R --languages=ruby --exclude=.* --exclude=log . $(bundle list --paths)
     ```
+6. install silver searcher to use instead of :grep
+    ```
+    brew install ag
+    ```
 
